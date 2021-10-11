@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background-color: #262626FF;
+}
+span{
+	color: transparent;
+	font-size: 100px;
+	font-weight: 800px;
+	font-family: sans-serif;
+	margin: 1px;
+	animation: anime 3s ease-in-out infinite;
+}
+@keyframes anime{
+	75%{
+		color: palevioletred;
+		transition-property: all;
+		transition-duration: 0.2s;
+		transform: translateY(100%);
+	}
+	100%{
+		color: palevioletred;
+		text-shadow: 1px 1px 20px #EC126CFF,
+					 0px 0px 40px #EC126CFF;
+	}
+}
+span:nth-child(1){
+	animation-delay: 0.2s;
+}
+span:nth-child(2){
+	animation-delay: 0.4s;
+}
+span:nth-child(3){
+	animation-delay: 0.6s;
+}
+span:nth-child(4){
+	animation-delay: 0.8s;
+}
+span:nth-child(5){
+	animation-delay: 1s;
+}
+span:nth-child(6){
+	animation-delay: 1.2s;
+}
+span:nth-child(7){
+	animation-delay: 1.4s;
+}
